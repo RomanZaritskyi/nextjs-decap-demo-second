@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: RomanZaritskyi/nextjs-decap-demo-second
   # name: test-repo
   branch: main # Branch to update (optional; defaults to master)
+  base_url: https://nextjs-decap-demo-second.vercel.app/
 media_folder: public/img
 public_folder: img
 collections:
