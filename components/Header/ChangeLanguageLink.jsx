@@ -19,7 +19,7 @@ const defineCurrentRoute = (pathname) => {
 };
 
 function ChangeLanguageLink() {
-  const { pathname } = usePathname();
+  // const { pathname } = usePathname();
   // const currentLocaleImg = lang === locales[0] ? LocaleEn : LocaleUa;
   // const currentLocalLang = lang === locales[0] ? "EN" : "UA";
   // const nextlanguage = lang === locales[0] ? locales[1] : locales[0];

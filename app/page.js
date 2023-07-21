@@ -1,4 +1,5 @@
 import Header from "@/components/Header/Header";
+import Banner from "@/components/Banner/Banner";
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <main className='main'>
           {/* <HomeContent /> */}
           <Header />
+          <Banner />
         </main>
       </div>
     </>
