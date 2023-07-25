@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  # name: test-repo
+  name: git-gateway
   repo: RomanZaritskyi/nextjs-decap-demo-second
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://nextjs-decap-demo-second.vercel.app
@@ -13,6 +14,7 @@ collections:
         name: "home"
         file: "content/home.md"
         fields:
+          # Header
           - { label: "Logo", name: "logo", widget: "image", choose_url: true }
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Sub title", name: "subTitile", widget: "string" }
@@ -21,6 +23,7 @@ collections:
             widget: list
             fields:
               - { label: "Name", name: "name", widget: "string" }
+          # Baner
           - { label: "Navigation button", name: "navigationButton", widget: "string" }
           - { label: "Baner image", name: "banerImage", widget: "image", choose_url: true }
           - { label: "Baner title", name: "banerTitle", widget: "string" }
