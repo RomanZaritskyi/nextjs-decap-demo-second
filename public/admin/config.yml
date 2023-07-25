@@ -29,3 +29,22 @@ collections:
           - { label: "Baner title", name: "banerTitle", widget: "string" }
           - { label: "Baner  subtitle", name: "banerSubTitle", widget: "string" }
           - { label: "Baner  button", name: "banerButton", widget: "string" }
+      - label: "About"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          # Header
+          - { label: "Logo", name: "logo", widget: "image", choose_url: true }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Sub title", name: "subTitile", widget: "string" }
+          - label: "Navigation"
+            name: "navigation"
+            widget: list
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+          # Baner
+          - { label: "Navigation button", name: "navigationButton", widget: "string" }
+          - { label: "Baner image", name: "banerImage", widget: "image", choose_url: true }
+          - { label: "Baner title", name: "banerTitle", widget: "string" }
+          - { label: "Baner  subtitle", name: "banerSubTitle", widget: "string" }
+          - { label: "Baner  button", name: "banerButton", widget: "string" }
